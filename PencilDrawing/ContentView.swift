@@ -6,16 +6,12 @@
 //
 
 import SwiftUI
+import PencilKit
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+    @State private var canvasView: PKCanvasView = PKCanvasView()
+    @State private var toolPicker: PKToolPicker = PKToolPicker()
+        var body: some View {
+            CanvasView(canvasView: self.$canvasView, toolPicker: self.$toolPicker)
+        }
 }
