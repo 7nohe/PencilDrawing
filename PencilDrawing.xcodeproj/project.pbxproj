@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65D34EF25EF590C007CE1BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D34EE25EF590C007CE1BE /* HomeView.swift */; };
+		A65D34F225EF5922007CE1BE /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D34F125EF5922007CE1BE /* BooksView.swift */; };
+		A65D34F525EF5933007CE1BE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D34F425EF5933007CE1BE /* MenuView.swift */; };
 		A67B678025ECF4360082E81F /* PencilDrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B677F25ECF4360082E81F /* PencilDrawingApp.swift */; };
 		A67B678225ECF4360082E81F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B678125ECF4360082E81F /* ContentView.swift */; };
 		A67B678425ECF43D0082E81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67B678325ECF43D0082E81F /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A65D34EE25EF590C007CE1BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A65D34F125EF5922007CE1BE /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		A65D34F425EF5933007CE1BE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		A67B677C25ECF4360082E81F /* PencilDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67B677F25ECF4360082E81F /* PencilDrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilDrawingApp.swift; sourceTree = "<group>"; };
 		A67B678125ECF4360082E81F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65D34F725EF5941007CE1BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A65D34EE25EF590C007CE1BE /* HomeView.swift */,
+				A65D34F125EF5922007CE1BE /* BooksView.swift */,
+				A65D34F425EF5933007CE1BE /* MenuView.swift */,
+				A67B678F25ECF5350082E81F /* CanvasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A67B677325ECF4350082E81F = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +73,10 @@
 			children = (
 				A67B677F25ECF4360082E81F /* PencilDrawingApp.swift */,
 				A67B678125ECF4360082E81F /* ContentView.swift */,
+				A65D34F725EF5941007CE1BE /* Views */,
 				A67B678325ECF43D0082E81F /* Assets.xcassets */,
 				A67B678825ECF43D0082E81F /* Info.plist */,
 				A67B678525ECF43D0082E81F /* Preview Content */,
-				A67B678F25ECF5350082E81F /* CanvasView.swift */,
 			);
 			path = PencilDrawing;
 			sourceTree = "<group>";
@@ -142,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67B678225ECF4360082E81F /* ContentView.swift in Sources */,
+				A65D34F525EF5933007CE1BE /* MenuView.swift in Sources */,
+				A65D34EF25EF590C007CE1BE /* HomeView.swift in Sources */,
+				A65D34F225EF5922007CE1BE /* BooksView.swift in Sources */,
 				A67B678025ECF4360082E81F /* PencilDrawingApp.swift in Sources */,
 				A67B679025ECF5350082E81F /* CanvasView.swift in Sources */,
 			);
