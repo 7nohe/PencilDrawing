@@ -6,11 +6,8 @@
 //
 
 import SwiftUI
-import PencilKit
 
 struct ContentView: View {
-//    @State private var canvasView: PKCanvasView = PKCanvasView()
-//    @State private var toolPicker: PKToolPicker = PKToolPicker()
     @State private var tabSelection = 0
         var body: some View {
             TabView(selection: $tabSelection) {
