@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct PencilDrawingApp: App {
+    @StateObject private var drawingModel = DrawingModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(drawingModel)
         }
     }
 }
